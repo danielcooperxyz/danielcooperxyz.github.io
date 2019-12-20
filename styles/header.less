@@ -1,0 +1,63 @@
+html body header {
+	position: fixed;
+	height: @header_height;
+	padding: 0 12.5%;
+	padding-top: 20px;
+	transition: all 500ms;
+
+	&.fixed {
+		height: 50px;
+		padding-top: 0;
+		transition: all 500ms;
+		background: white;
+		border-bottom: 1px solid @hero_color;
+
+		#title a, #title a:visited, nav a, nav a:visited {
+			color: @hero_color;
+
+			&:hover {
+				color: @accent_color;
+			}
+		}
+		#title {
+			display: block;
+		}
+	}
+	#title {
+		width: 25%;
+		float: left;
+		display: none;
+		min-width: 252px;
+	}
+	#mobile-menu {
+		display: none;
+	}
+	nav {
+		width: 75%;
+		float: right;
+		text-align: right;
+		font-size: 18px;
+		max-width: 330px;
+
+		a, a:visited {
+			margin: 0 15px;
+			color: white;
+
+			&:hover {
+				background: transparent;
+			}
+		}
+	}
+	#title, nav, #mobile-menu {
+		height: 50px;
+		margin: 10px 0;
+		line-height: 25px;
+	}
+	&:after {
+		content: ".";
+		visibility: hidden;
+		display: block;
+		height: 0;
+		clear: both;
+	}
+}

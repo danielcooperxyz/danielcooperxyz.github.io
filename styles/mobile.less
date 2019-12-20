@@ -1,0 +1,46 @@
+
+@media only screen and (max-width:900px){
+	html body section {
+		.container .column {
+			&.third, &.half {
+				width: 90%;
+			}
+		}
+
+		&#skills .container .column {
+			margin-bottom: 20px;
+		}
+
+		&#stack .container .column {
+			margin-bottom: 20px;
+			min-height: 0;
+
+			.tags{
+				min-height: 0;
+			}
+		}
+	}
+}
+@media only screen and (max-width:800px){
+	html body header {
+		&.fixed #title{
+			display: none;
+		}
+		nav {
+			float: none;
+			width: 100%;
+			max-width: none;
+			text-align: center;
+		}
+	}
+}
+@media only screen and (max-width:500px){
+	html body {
+		#hero .container {
+			width: 100%;
+			h2 {
+				font-size: 1em;
+			}
+		}
+	}
+}

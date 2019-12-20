@@ -1,0 +1,15 @@
+{
+  "name": "website",
+  "version": "2.0.0",
+  "description": "Daniel Cooper's personal website",
+  "repository": "https://github.com/d4nc00per/d4nc00per.github.io",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5",
+    "gulp-util": "^3.0.7"
+  },
+  "scripts": {
+    "start": "npm install && gulp"
+  },
+  "author": "Daniel Cooper"
+}
