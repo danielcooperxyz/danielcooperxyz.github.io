@@ -12,13 +12,14 @@ function errorLogHandler(msg){
     gutil.beep();
 }
 
-gulp.task('less', function () {
+gulp.task('less', gulp.series(function (done) {
     gulp.src('./styles/styles.less')
     .pipe(less({
         compress: true
     })).on('error', errorLogHandler)
     .pipe(gulp.dest('./styles'));
-});
+    done();
+}));
 
 function exit() {
     if (website !== null) {
@@ -27,27 +28,23 @@ function exit() {
     }
 }
 
-gulp.task('jekyll', function()
+gulp.task('jekyll', gulp.series(function(done)
 	{
 		website = spawn('jekyll.bat', ['build']);
 		website.on('error', errorLogHandler);
 
 		website.stdout.on('data', (data) => {
 			console.log(data.toString('ascii'));
-		});
-});
+        });
+        done();
+}));
 
 gulp.task('watch', function() {
-    gulp.watch("./styles/*.less", ['less', 'jekyll']);
-    gulp.watch("./*.html", ['jekyll']);
-    gulp.watch("./scripts/*", ['jekyll']);
-    gulp.watch("./img/*", ['jekyll']);
-    gulp.watch("./_layouts/*", ['jekyll']);
+    gulp.watch("./styles/*.less", gulp.series('less', 'jekyll'));
+    gulp.watch("./*.html", gulp.series('jekyll'));
+    gulp.watch("./scripts/*", gulp.series('jekyll'));
+    gulp.watch("./img/*", gulp.series('jekyll'));
+    gulp.watch("./_layouts/*", gulp.series('jekyll'));
 });
 
-gulp.task(
-	'default', 
-	[	'less',
-		'jekyll',
-		'watch'
-	]);
+gulp.task('default', gulp.series('less', 'jekyll', 'watch'));

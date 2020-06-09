@@ -4,8 +4,8 @@
   "description": "Daniel Cooper's personal website",
   "repository": "https://github.com/d4nc00per/d4nc00per.github.io",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-less": "^3.0.5",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
     "gulp-util": "^3.0.7"
   },
   "scripts": {
