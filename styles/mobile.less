@@ -1,9 +1,11 @@
 
-@media only screen and (max-width:900px){
+@media screen and (max-width:900px){
 	html body section {
 		.container .column {
 			&.third, &.half {
 				width: 90%;
+				float: none;
+				margin: 0 auto;
 			}
 		}
 
@@ -19,9 +21,14 @@
 				min-height: 0;
 			}
 		}
+		.project {			
+			h4 {
+				text-align: center;
+			}
+		}
 	}
 }
-@media only screen and (max-width:800px){
+@media screen and (max-width:800px){
 	html body header {
 		&.fixed #title{
 			display: none;
@@ -34,7 +41,7 @@
 		}
 	}
 }
-@media only screen and (max-width:500px){
+@media screen and (max-width:500px){
 	html body {
 		#hero .container {
 			width: 100%;

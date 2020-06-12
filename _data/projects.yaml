@@ -1,0 +1,57 @@
+- title: Surrey DLT
+  icon: fa-link
+  content: 'The University of Surrey is at the forefront of Distributed Ledger Technology (DLT), with their <a href="https://blockchain.surrey.ac.uk/">Blockchain research group</a>, a research portfolio of over £3m in UKRI/EPSRC Digital Economy funded projects undertaking cross-disciplinary research that is transforming domains as diverse as digital records, healthcare, electronic voting, trust and identity.<br/><br/>A private Ethereum network was initialised, utilising the latest version of geth inside docker containers to orchestrate a multi-node network, that distributed data across the University&apos;s DLT infrastructure.'
+  media: <img src="/img/surrey-dlt.png" alt="Surrey DLT Ethereum Dashboard"/>
+  tags:
+    - Ethereum
+    - Golang
+    - Javascript
+    - Docker
+- title: Tapestry
+  icon: fa-handshake-o
+  content: '<a href="https://tapestry.ac.uk">TAPESTRY - Trust and Privacy over a Decentralised Social Registry</a><br/> How can we tell if the identity we are interacting with online is genuine, or a fake account created to scam us? Trust is fundamental to our digital interactions, when all of which take place between pseudodyms and email addresses that are not necessarily grounded in physical identities.<br/><br/>A multi-component platform was used to trial the machine learning technology, and engage with potential users to understand the effect the technology had on trusting individuals online. The platform comprised of browser extension, command line tools, user portals, combined with multiple backend microservices for the machine learning and DLT infrastructure.'
+  media: <iframe src="https://www.youtube.com/embed/ljxbfBFMrkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  tags:
+    - Golang
+    - Javascript
+    - Ethereum
+    - Python
+    - PyTorch
+    - Docker
+    - PostgreSQL
+- title: Archangel
+  icon: fa-file-archive-o
+  content: '<a href="https://archangel.ac.uk">ARCHANGEL - Trusted Archives of Digital Public Records</a><br/>Archives are the lens through which future generations will see the events of today. Working with The National Archives and the Open Data Institute (ODI), the University of Surrey is fusing AI and Blockchain technologies to help safeguard the integrity and future sustainability of our digital public archives.<br/>'
+  media: <iframe src="https://www.youtube.com/embed/7C65SXR_msM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  tags:
+    - Golang
+    - Javascript
+    - Ethereum
+    - Python
+    - Docker
+    - Tensorflow
+- title: PDA Coaching
+  icon: fa-futbol-o
+  content: '<a href="https://pdacoaching.com">PDA Coaching</a> strives to progress all participant’s technical ability, tactical awareness, physically fitness and psychological aspects of the game. Develop all participants to achieve their potential. To provide the children with the best opportunities to achieve their ambitions within sport.<br/><br/>
+  An ecommerce platform helped this disruptive startup get off the ground, and deliver quality services to its customers from the very beginning, enabling ease of booking &amp; payment and providing staff with a register system to manage attendance.'
+  tags:
+    - Wordpress
+    - PHP
+    - CSS
+  media: <img src="/img/pda.png" alt="PDA Coaching Homepage"/>
+- title: Batchblock
+  icon: fa-cubes
+  content: '<a href="https://vhive.buzz/cases/batch-block/">Batch Block</a> is a blockchain solution that tracks how consumables move from manufacturer to the end consumer, providing stakeholders with visibility and improving demand management, revenue forecasting and overall performance management.<br/><br/>A web application that demonstrates the value of blockchain technology for distributors of veterinary products in developing countries, where product counterfeiting and repacking are commonplace.'
+  media: <img src="/img/batchblock.png" alt="Batchblock Demo"/>
+  tags:
+    - JavaScript
+    - ReactJS
+- title: Composite Variable Tool
+  icon: fa-globe
+  content: 'Compose data from variables held within CSV files, to produce 3D graphical visualisations of the data.<br/> <br/>
+  A portable application composed of modern web technologies that enables the user to review a dataset, and carry out composition of variable by providing functionality that allows the data to be combined with mathematical formula to provide new perspectives on the data.<br/><a href="/cvt.html">Try it here</a>'
+  media: <img src="/img/cvt.png" alt="Composite Variable Tool"/>
+  tags:
+    - JavaScript
+    - ReactJS
+    - Redux

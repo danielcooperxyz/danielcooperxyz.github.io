@@ -1,0 +1,95 @@
+@font_color: @accent_color;
+@border_color: @accent_color;
+
+html body {
+    color: @font_color;
+
+    section#hero {
+        height: 75%;
+    }
+
+    section.experience, section.portfolio {
+        h2, h4 {
+            margin-bottom: 0.25em;
+        }
+    }
+
+    section.experience {
+        .timeline-point {
+            color: @border_color;
+            position: relative;
+            left: -6.5px;
+            bottom: -0.6em;
+
+            &.timeline-bottom {
+                bottom:0;
+                top: -3px;
+                left: -6px;
+            }
+        }
+        .role {
+            padding-bottom: 10px;
+            border-left: 3px solid @border_color;
+            padding-left: 2em;
+
+            &::before{
+                background: #FFF;
+                font-size: 1.5em;
+                display: inline-block;
+                position: relative;
+                left: -2.5em;
+                top: 1.5em;
+                font-family: 'FontAwesome';
+                border: 3px solid @border_color;
+                border-radius: 20%;
+                padding: 0.25em;
+                text-align: center;
+                vertical-align: middle;
+                height: 1em;
+                width: 1.2em;
+                margin: -100% 0
+            }
+            &.developer::before {
+                content: "\f1c9";
+            }
+            &.research::before {
+                content: "\f0c3";
+            }
+            &.data::before{
+                content: "\f1c0";
+            }
+            &.support::before{
+                content: "\f095";
+            }
+            &.academia::before{
+                content: "\f19d";
+            }
+            h4, p {
+                margin: 0;
+            }
+
+            .tags {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    section.portfolio {
+        .project {
+            margin-bottom: 1em;
+            text-align: center;
+            h4 i {
+                text-align: center;
+                width: 1.5em;
+            }
+            img {
+                width: 100%;
+            }
+            iframe {
+                width: 100%;
+                min-height: 315px;
+            }
+        }
+    }
+
+}

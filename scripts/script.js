@@ -58,9 +58,7 @@ $(document).ready(function(){
 	});
 
 	//setHeaderStyle();
-	// $(window).scroll(setHeaderStyle);
-
-	// $(window).scrollStopped(flipScroller);
-
-	// $('#scroller').click(scrollerClick);
+	$(window).scroll(setHeaderStyle);
+	$(window).scrollStopped(flipScroller);
+	$('#scroller').click(scrollerClick);
 });

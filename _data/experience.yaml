@@ -1,0 +1,93 @@
+- div_class: developer
+  title: Senior Web Developer
+  fields:
+  - Veterinary Medicines Directorate
+  - February 2020 - Present
+  tags:
+  - Docker
+  - Kubernetes
+  - Jenkins
+  - AWS
+  - C#
+  - .Net Core
+- div_class: research
+  title: Research Software Engineer
+  fields:
+  - Center for Vision Speech and Signal Processing, University of Surrey
+  - August 2018 - January 2020
+  tags:
+  - Golang
+  - Python
+  - JavaScript
+  - ReactJS
+  - Redux
+  - PostgreSQL
+  - Ethereum
+  - GitLab
+  - Docker
+  - Chef
+  - Bash
+  - Linux
+  - Nginx
+- div_class: data
+  title: Data Scientist
+  fields:
+  - Veterinary Health Innovation Engine, University of Surrey
+  - June 2017 - July 2018
+  tags:
+  - Golang
+  - Javascript
+  - ReactJS
+  - Redux
+  - Docker
+  - Python
+  - Ruby
+  - Stata
+  - AngularJS
+  - Cordova
+  - Android
+  - PostgreSQL
+- div_class: developer
+  title: Analyst Programmer
+  fields:
+  - Avco Systems Ltd
+  - June 2013 - May 2017
+  tags:
+  - Golang
+  - Javascript
+  - ReactJS
+  - Redux
+  - C#
+  - MVC ASP.NET
+  - WPF
+  - Gitlab CI
+  - Docker
+  - MySql
+  - MongoDB
+  - SQL Server
+  - HTML
+  - CSS
+  - JQuery
+- div_class: support
+  title: Operations Support Assistant & Junior Developer
+  fields:
+  - Venatrack Ltd
+  - June 2012 - January 2013
+  tags:
+  - C#
+  - WPF
+  - HTML
+  - CSS
+- div_class: academia
+  title: Bsc (Hons) Computer Science
+  fields:
+  - Upper Second Class
+  - Brunel University
+  - September 2011 - June 2015
+  tags:
+  - Java
+  - Android
+  - Bluetooth
+  - Neo4j
+
+
