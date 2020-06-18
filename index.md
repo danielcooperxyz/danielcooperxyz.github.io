@@ -12,7 +12,7 @@ layout: default
 		</h3>
 	</div>
 </section>
-<section class="experience">
+<section class="experience" id="roles">
 	<div class="container">
 		<h2>Experience</h2>
 		<i class="fa fa-chevron-up timeline-point" aria-hidden="true"></i>
@@ -32,7 +32,7 @@ layout: default
 		<i class="fa fa-circle-o timeline-point timeline-bottom" aria-hidden="true"></i>
 	</div>
 </section>
-<section class="off portfolio">
+<section class="off portfolio" id="projects">
 	<h2>Projects</h2>
 	{% for proj in site.data.projects %}
 		{% capture content %} 
