@@ -9,7 +9,7 @@
     - Docker
 - title: Tapestry
   icon: fa-handshake-o
-  content: '<a href="https://tapestry.ac.uk">TAPESTRY - Trust and Privacy over a Decentralised Social Registry</a><br/> How can we tell if the identity we are interacting with online is genuine, or a fake account created to scam us? Trust is fundamental to our digital interactions, when all of which take place between pseudodyms and email addresses that are not necessarily grounded in physical identities.<br/><br/>A multi-component platform was used to trial the machine learning technology, and engage with potential users to understand the effect the technology had on trusting individuals online. The platform comprised of browser extension, command line tools, user portals, combined with multiple backend microservices for the machine learning and DLT infrastructure.'
+  content: '<a href="https://www.tapestry.ac.uk">TAPESTRY - Trust and Privacy over a Decentralised Social Registry</a><br/> How can we tell if the identity we are interacting with online is genuine, or a fake account created to scam us? Trust is fundamental to our digital interactions, when all of which take place between pseudodyms and email addresses that are not necessarily grounded in physical identities.<br/><br/>A multi-component platform was used to trial the machine learning technology, and engage with potential users to understand the effect the technology had on trusting individuals online. The platform comprised of browser extension, command line tools, user portals, combined with multiple backend microservices for the machine learning and DLT infrastructure.'
   media: <iframe src="https://www.youtube.com/embed/ljxbfBFMrkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   tags:
     - Golang
@@ -21,7 +21,7 @@
     - PostgreSQL
 - title: Archangel
   icon: fa-file-archive-o
-  content: '<a href="https://archangel.ac.uk">ARCHANGEL - Trusted Archives of Digital Public Records</a><br/>Archives are the lens through which future generations will see the events of today. Working with The National Archives and the Open Data Institute (ODI), the University of Surrey is fusing AI and Blockchain technologies to help safeguard the integrity and future sustainability of our digital public archives.<br/>'
+  content: '<a href="https://www.archangel.ac.uk">ARCHANGEL - Trusted Archives of Digital Public Records</a><br/>Archives are the lens through which future generations will see the events of today. Working with The National Archives and the Open Data Institute (ODI), the University of Surrey is fusing AI and Blockchain technologies to help safeguard the integrity and future sustainability of our digital public archives.<br/>'
   media: <iframe src="https://www.youtube.com/embed/7C65SXR_msM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   tags:
     - Golang
