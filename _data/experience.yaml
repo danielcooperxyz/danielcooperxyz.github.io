@@ -1,4 +1,15 @@
 - div_class: developer
+  title: Golang Developer
+  fields:
+  - Qadre Ltd
+  - August 2020 - Present
+  tags:
+  - Golang
+  - Docker
+  - Travis CI
+  - AWS
+  - Blockchain
+- div_class: developer
   title: Senior Web Developer
   fields:
   - Veterinary Medicines Directorate
@@ -17,6 +28,7 @@
   - August 2018 - January 2020
   tags:
   - Golang
+  - Blockchain
   - Python
   - JavaScript
   - ReactJS
