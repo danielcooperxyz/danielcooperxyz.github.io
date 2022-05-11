@@ -1,5 +1,6 @@
 
 name: Daniel Cooper
+host: 0.0.0.0
 
 # Exclude files from Jekyll Conversion
 exclude: [
@@ -10,7 +11,9 @@ exclude: [
 	CNAME,
 	node_modules,
 	gulpfile.js,
-	package.json
+	package.json,
+	package-lock.json,
+	Dockerfile
 ]
 
 include: [

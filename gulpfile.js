@@ -2,7 +2,6 @@ var spawn = require('child_process').spawn;
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var less = require('gulp-less');
-var browserSync = require('browser-sync').create();
 
 var website = null;
 
@@ -31,7 +30,7 @@ function exit() {
 
 gulp.task('jekyll', gulp.series(function(done)
 	{
-		website = spawn('jekyll.bat', ['build']);
+		website = spawn('jekyll', ['serve', '--incremental']);
 		website.on('error', errorLogHandler);
 
 		website.stdout.on('data', (data) => {
@@ -40,16 +39,10 @@ gulp.task('jekyll', gulp.series(function(done)
 		website.stderr.on('data', (data) => {
 			console.log(data.toString('ascii'));
         });
-        website.on('close', browserSync.reload);
         done();
 }));
 
 gulp.task('watch', function() {
-    browserSync.init({
-        server: {
-            baseDir: "./_site"
-        }
-    });
     gulp.watch("./styles/*.less", gulp.series('less', 'jekyll'));
     gulp.watch(["./*.html", "./*.md", "./_data/*.yaml"], gulp.series('jekyll'));
     gulp.watch("./scripts/*", gulp.series('jekyll'));
