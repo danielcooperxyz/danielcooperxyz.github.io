@@ -4,10 +4,10 @@
   "description": "Daniel Cooper's personal website",
   "repository": "https://github.com/d4nc00per/d4nc00per.github.io",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^1.9.2",
     "gulp": "^4.0.2",
     "gulp-less": "^4.0.1",
-    "gulp-util": "^3.0.7"
+    "gulp-util": "^1.0.0"
   },
   "scripts": {
     "start": "npm install && gulp"
