@@ -30,7 +30,7 @@ function exit() {
 
 gulp.task('jekyll', gulp.series(function(done)
 	{
-		website = spawn('jekyll', ['serve', '--incremental']);
+		website = spawn('jekyll', ['serve', '--incremental', '--force-polling', '-l']);
 		website.on('error', errorLogHandler);
 
 		website.stdout.on('data', (data) => {

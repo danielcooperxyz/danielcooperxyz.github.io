@@ -4,13 +4,15 @@
   "description": "Daniel Cooper's personal website",
   "repository": "https://github.com/d4nc00per/d4nc00per.github.io",
   "devDependencies": {
-    "browser-sync": "^1.9.2",
+    "browser-sync": "^2.27.9",
     "gulp": "^4.0.2",
     "gulp-less": "^4.0.1",
     "gulp-util": "^1.0.0"
   },
   "scripts": {
-    "start": "npm install && gulp"
+    "start": "bundle && npm install && gulp",
+    "build-docker": "docker build --rm -t ruby-node-jekyll .",
+    "run-docker": "docker run -it --rm -v %cd%:/src/ -w /src/ -p 35729:35729 -p 4000:4000 ruby-node-jekyll"
   },
   "author": "Daniel Cooper"
 }
