@@ -10,7 +10,7 @@
     "gulp-less": "^5.0.0"
   },
   "scripts": {
-    "start": "bundle && npm install && gulp",
+    "dev": "bundle && npm install && gulp",
     "build-docker": "docker build --rm -t ruby-node-jekyll .",
     "run-docker": "docker run -it --rm -v %cd%:/src/ -w /src/ -p 35729:35729 -p 4000:4000 ruby-node-jekyll"
   },

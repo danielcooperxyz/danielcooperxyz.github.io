@@ -1,8 +1,21 @@
 - div_class: developer
+  title: Full-Stack Engineer
+  fields:
+  - Digital Catapult Ltd
+  - January 2022 - Present
+  tags:
+  - Javascript
+  - Docker
+  - GitHub Actions
+  - AWS
+  - Blockchain
+  - OpenAPI
+  - Microservices
+- div_class: developer
   title: Golang Developer
   fields:
   - Qadre Ltd
-  - August 2020 - Present
+  - August 2020 - December 2021
   tags:
   - Golang
   - Docker
