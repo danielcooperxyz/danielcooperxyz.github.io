@@ -1,6 +1,8 @@
 var spawn = require('child_process').spawn;
 var gulp = require('gulp');
 var gutil = require('gulp-util');
+var log = require('fancy-log');
+const c = require('ansi-colors');
 var less = require('gulp-less');
 
 var website = null;
@@ -8,8 +10,7 @@ var website = null;
 process.on('exit', exit);
 
 function errorLogHandler(msg){
-    gutil.log(gutil.colors.red(msg));
-    gutil.beep();
+    log(c.red(msg));
 }
 
 gulp.task('less', gulp.series(function (done) {
