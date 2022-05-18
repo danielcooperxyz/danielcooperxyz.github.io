@@ -38,11 +38,11 @@
     - Wordpress
     - PHP
     - CSS
-  media: <img src="/img/pda.png" alt="PDA Coaching Homepage"/>
+  media: <img src="/img/pda.png" srcset="/img/pda.png 1690w, /img/pda-med.png 900w, /img/pda-small.png 300w" size="30vw" alt="PDA Coaching Homepage demonstrated on a range of screen sizes."/>
 - title: Batchblock
   icon: fa-cubes
   content: '<a href="https://vhive.buzz/cases/batch-block/">Batch Block</a> is a blockchain solution that tracks how consumables move from manufacturer to the end consumer, providing stakeholders with visibility and improving demand management, revenue forecasting and overall performance management.<br/><br/>A web application that demonstrates the value of blockchain technology for distributors of veterinary products in developing countries, where product counterfeiting and repacking are commonplace.'
-  media: <img src="/img/batchblock.png" alt="Batchblock Demo"/>
+  media: <img src="/img/batchblock.png" srcset="/img/batchblock.png 1920, /img/batchblock-med.png 900w, /img/batchblock-small.png 300w" size="30vw" alt="Batchblock Demo webpage that demonstrates how data can be stored on the blockchain to prevent counterfeiting"/>
   tags:
     - JavaScript
     - ReactJS
@@ -50,7 +50,7 @@
   icon: fa-globe
   content: 'Compose data from variables held within CSV files, to produce 3D graphical visualisations of the data.<br/> <br/>
   A portable application composed of modern web technologies that enables the user to review a dataset, and carry out composition of variable by providing functionality that allows the data to be combined with mathematical formula to provide new perspectives on the data.<br/><a href="/cvt.html">Try it here</a>'
-  media: <img src="/img/cvt.png" alt="Composite Variable Tool"/>
+  media: <img src="/img/cvt.png" srcset="/img/cvt.png 1920, /img/cvt-med.png 900w, /img/cvt-small.png 300w" size="30vw" alt="Composite Variable Tool populated with data demonstrating how a three dimensional dataset can be populated."/>
   tags:
     - JavaScript
     - ReactJS
