@@ -20,7 +20,6 @@ function atBottom() {
 }
 
 function flipScroller(e) {
-
 	if (atBottom()) {
 		// flip nav button
 		$('#scroller').addClass("flipped");
@@ -57,7 +56,7 @@ $(document).ready(function(){
 		}
 	});
 
-	//setHeaderStyle();
+	setHeaderStyle();
 	$(window).scroll(setHeaderStyle);
 	$(window).scrollStopped(flipScroller);
 	$('#scroller').click(scrollerClick);
