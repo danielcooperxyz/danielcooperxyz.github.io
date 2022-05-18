@@ -1,4 +1,4 @@
-- div_class: developer
+- div_class: full-stack
   title: Full-Stack Engineer
   fields:
   - Digital Catapult Ltd
@@ -11,7 +11,7 @@
   - Blockchain
   - OpenAPI
   - Microservices
-- div_class: developer
+- div_class: go-developer
   title: Golang Developer
   fields:
   - Qadre Ltd

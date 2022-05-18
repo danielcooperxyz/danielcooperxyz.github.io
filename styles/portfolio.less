@@ -18,13 +18,13 @@ html body {
         .timeline-point {
             color: @border_color;
             position: relative;
-            left: -6.5px;
-            bottom: -0.6em;
+            left: -6px;
+            bottom: -0.8em;
 
             &.timeline-bottom {
                 bottom:0;
                 top: -3px;
-                left: -6px;
+                left: -7px;
             }
         }
         .role {
@@ -42,15 +42,21 @@ html body {
                 font-family: 'FontAwesome';
                 border: 3px solid @border_color;
                 border-radius: 20%;
-                padding: 0.25em;
+                padding: .25em .25em .2em .25em;
                 text-align: center;
                 vertical-align: middle;
-                height: 1em;
+                height: 1.2em;
                 width: 1.2em;
                 margin: -100% 0
             }
             &.developer::before {
                 content: "\f1c9";
+            }
+            &.full-stack::before {
+                content: "\e4e6";
+            }
+            &.go-developer::before {
+                content: "\e40f";
             }
             &.research::before {
                 content: "\f0c3";
