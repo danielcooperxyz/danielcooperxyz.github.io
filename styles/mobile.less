@@ -28,19 +28,27 @@
 		}
 	}
 }
+
 @media screen and (max-width:800px){
-	html body header {
-		&.fixed #title{
-			display: none;
+	html body {
+		header {
+			&.fixed #title{
+				display: none;
+			}
+			nav {
+				float: none;
+				width: 100%;
+				max-width: none;
+				text-align: center;
+			}
 		}
-		nav {
-			float: none;
-			width: 100%;
-			max-width: none;
-			text-align: center;
+		
+		section.portfolio .project img {
+			width: auto;
 		}
 	}
 }
+
 @media screen and (max-width:500px){
 	html body {
 		#hero .container {
