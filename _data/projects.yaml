@@ -1,7 +1,7 @@
 - title: Surrey DLT
   icon: fa-link
   content: 'The University of Surrey is at the forefront of Distributed Ledger Technology (DLT), with their <a href="https://blockchain.surrey.ac.uk/">Blockchain research group</a>, a research portfolio of over £3m in UKRI/EPSRC Digital Economy funded projects undertaking cross-disciplinary research that is transforming domains as diverse as digital records, healthcare, electronic voting, trust and identity.<br/><br/>A private Ethereum network was initialised, utilising the latest version of geth inside docker containers to orchestrate a multi-node network, that distributed data across the University&apos;s DLT infrastructure.'
-  media: <img src="/img/surrey-dlt.png" srcset="/img/cvt.png 1920, /img/cvt-med.png 900w, /img/cvt-small.png 300w" size="30vw" alt="Surrey DLT Ethereum Dashboard"/>
+  media: <img src="/img/surrey-dlt.png" srcset="/img/surrey-dlt.png 1920, /img/surrey-dlt-med.png 900w, /img/surrey-dlt-small.png 300w" size="30vw" alt="Surrey DLT Ethereum Dashboard"/>
   tags:
     - Ethereum
     - Golang
