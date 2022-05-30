@@ -32,7 +32,16 @@ layout: default
 		<i class="fa-solid fa-circle-notch timeline-point timeline-bottom" aria-hidden="true"></i>
 	</div>
 </section>
-<button id="roles-expander"><i class="fa-solid fa-chevron-down" aria-hidden="true">More</i><i class="fa-solid fa-chevron-up" aria-hidden="true">Less</i></button>
+<button id="roles-expander">
+	<span class="opener">
+		<span class="text">See more...</span><br/>
+		<i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+	</span>
+	<span class="closer">	
+		<span class="text">See less...</span><br/>
+		<i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+	</span>
+</button>
 <section class="off portfolio" id="projects">
 	<h2>Projects</h2>
 	{% for proj in site.data.projects %}
