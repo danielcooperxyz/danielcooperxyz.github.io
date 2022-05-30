@@ -8,7 +8,7 @@
     - Javascript
     - Docker
 - title: Tapestry
-  icon: fa-handshake-o
+  icon: fa-handshake
   content: '<a href="https://www.tapestry.ac.uk">TAPESTRY - Trust and Privacy over a Decentralised Social Registry</a><br/> How can we tell if the identity we are interacting with online is genuine, or a fake account created to scam us? Trust is fundamental to our digital interactions, when all of which take place between pseudodyms and email addresses that are not necessarily grounded in physical identities.<br/><br/>A multi-component platform was used to trial the machine learning technology, and engage with potential users to understand the effect the technology had on trusting individuals online. The platform comprised of browser extension, command line tools, user portals, combined with multiple backend microservices for the machine learning and DLT infrastructure.'
   media: <iframe src="https://www.youtube.com/embed/ljxbfBFMrkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   tags:
@@ -20,7 +20,7 @@
     - Docker
     - PostgreSQL
 - title: Archangel
-  icon: fa-file-archive-o
+  icon: fa-file-archive
   content: '<a href="https://www.archangel.ac.uk">ARCHANGEL - Trusted Archives of Digital Public Records</a><br/>Archives are the lens through which future generations will see the events of today. Working with The National Archives and the Open Data Institute (ODI), the University of Surrey is fusing AI and Blockchain technologies to help safeguard the integrity and future sustainability of our digital public archives.<br/>'
   media: <iframe src="https://www.youtube.com/embed/7C65SXR_msM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   tags:
@@ -31,7 +31,7 @@
     - Docker
     - Tensorflow
 - title: PDA Coaching
-  icon: fa-futbol-o
+  icon: fa-futbol
   content: '<a href="https://pdacoaching.com">PDA Coaching</a> strives to progress all participant’s technical ability, tactical awareness, physically fitness and psychological aspects of the game. Develop all participants to achieve their potential. To provide the children with the best opportunities to achieve their ambitions within sport.<br/><br/>
   An ecommerce platform helped this disruptive startup get off the ground, and deliver quality services to its customers from the very beginning, enabling ease of booking &amp; payment and providing staff with a register system to manage attendance.'
   tags:
