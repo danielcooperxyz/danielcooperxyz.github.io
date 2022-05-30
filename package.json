@@ -5,11 +5,13 @@
   "repository": "https://github.com/d4nc00per/d4nc00per.github.io",
   "devDependencies": {
     "ansi-colors": "^4.1.1",
+    "del": "^6.1.0",
     "fancy-log": "^2.0.0",
     "gulp": "^4.0.2",
     "gulp-less": "^5.0.0"
   },
   "scripts": {
+    "gulp": "gulp",
     "dev": "bundle && npm install && gulp",
     "build-docker": "docker build --rm -t ruby-node-jekyll .",
     "run-docker": "docker run -it --rm -v %cd%:/src/ -w /src/ -p 35729:35729 -p 4000:4000 ruby-node-jekyll"

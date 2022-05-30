@@ -4,6 +4,7 @@ var log = require('fancy-log');
 const c = require('ansi-colors');
 var less = require('gulp-less');
 var path = require('path');
+var del = require('del');
 
 var website = null;
 
@@ -12,6 +13,11 @@ process.on('exit', exit);
 function errorLogHandler(msg){
     log(c.red(msg));
 }
+
+gulp.task('delete-styles', gulp.series(async function (done) {
+    await del(['./styles/styles.css']);    
+    done();
+}));
 
 gulp.task('less', gulp.series(function (done) {
     gulp.src('./styles/styles.less')
@@ -51,7 +57,7 @@ gulp.task('jekyll', gulp.series(function(done)
 }));
 
 gulp.task('watch', function() {
-    gulp.watch("./styles/*.less", {usePolling: true},  gulp.series('less'));
+    gulp.watch("./styles/*.less", {usePolling: true},  gulp.series(['delete-styles', 'less']));
     // gulp.watch(["./*.html", "./*.md", "./_data/*.yaml"], gulp.series('jekyll'));
     // gulp.watch("./scripts/*", gulp.series('jekyll'));
     // gulp.watch("./img/*", gulp.series('jekyll'));

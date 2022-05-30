@@ -6,7 +6,11 @@ host: 0.0.0.0
 exclude: [
 	README.md,
 	styles/styles.css.map,
-	styles/*.less,
+	styles/header.less,
+	styles/mobile.less,
+	styles/portfolio.less,
+	styles/shared.less,
+	styles/styles.less,
 	.gitignore,
 	CNAME,
 	node_modules,
@@ -18,4 +22,5 @@ exclude: [
 
 include: [
 	styles/styles.css
+
 ]
