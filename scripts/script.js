@@ -8,7 +8,7 @@ $.fn.scrollStopped = function(callback) {
 
 function setHeaderStyle() {
 
-	if ($(document).scrollTop() > 0) {
+	if ($(document).scrollTop() > 1) {
 		$('header').addClass('fixed');
 	} else {
 		$('header').removeClass('fixed');
