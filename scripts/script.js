@@ -44,6 +44,10 @@ function scrollerClick(e) {
 		$('html, body').animate({scrollTop: 0}, 1000);
 	}
 }
+function rolesExpander() {	
+	$('#roles').toggleClass("collapsed");
+	$('#roles-expander').toggleClass("expanded");
+}
 
 $(document).ready(function(){
 
@@ -60,4 +64,7 @@ $(document).ready(function(){
 	$(window).scroll(setHeaderStyle);
 	$(window).scrollStopped(flipScroller);
 	$('#scroller').click(scrollerClick);
+
+	$('#roles').addClass("collapsed");
+	$('#roles-expander').click(rolesExpander);
 });
