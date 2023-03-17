@@ -1,8 +1,20 @@
 - div_class: full-stack
+  title: Software Engineer
+  fields:
+  - Sony Interactive Entertainment Europe
+  - July 2022 - Present
+  tags:
+  - Typescript
+  - GraphQL
+  - Jenkins
+  - AWS
+  - Serverless
+  - Microservices
+- div_class: full-stack
   title: Full-Stack Engineer
   fields:
   - Digital Catapult Ltd
-  - January 2022 - Present
+  - January 2022 - May 2022
   tags:
   - Javascript
   - Docker
