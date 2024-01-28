@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d1c33cb.css",
-    "main.js": "/static/js/main.c7a7ab24.js",
-    "static/js/787.abb3e4e9.chunk.js": "/static/js/787.abb3e4e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.4d1c33cb.css.map": "/static/css/main.4d1c33cb.css.map",
-    "main.c7a7ab24.js.map": "/static/js/main.c7a7ab24.js.map",
-    "787.abb3e4e9.chunk.js.map": "/static/js/787.abb3e4e9.chunk.js.map"
+    "main.css": "/gnomework/static/css/main.4d1c33cb.css",
+    "main.js": "/gnomework/static/js/main.c7a7ab24.js",
+    "static/js/787.abb3e4e9.chunk.js": "/gnomework/static/js/787.abb3e4e9.chunk.js",
+    "static/media/logo.svg": "/gnomework/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/gnomework/index.html",
+    "main.4d1c33cb.css.map": "/gnomework/static/css/main.4d1c33cb.css.map",
+    "main.c7a7ab24.js.map": "gnomework/static/js/main.c7a7ab24.js.map",
+    "787.abb3e4e9.chunk.js.map": "/gnomework/static/js/787.abb3e4e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d1c33cb.css",
-    "static/js/main.c7a7ab24.js"
+    "gnomework/static/css/main.4d1c33cb.css",
+    "gnomework/static/js/main.c7a7ab24.js"
   ]
 }
