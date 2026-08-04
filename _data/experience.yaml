@@ -1,15 +1,14 @@
-- div_class: full-stack
+- div_class: playstation
   title: Software Engineer
   fields:
   - Sony Interactive Entertainment Europe
-  - July 2022 - Present
+  - July 2022 - July 2026
   tags:
   - Typescript
   - GraphQL
   - Jenkins
   - AWS
   - Serverless
-  - Microservices
 - div_class: full-stack
   title: Full-Stack Engineer
   fields:

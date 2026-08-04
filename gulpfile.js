@@ -38,7 +38,27 @@ function exit() {
 
 gulp.task('jekyll', gulp.series(function(done)
 	{
-		website = spawn('jekyll', ['serve', '--incremental', '--force-polling', '-l']);
+		website = spawn('bundle', ['exec', 'jekyll', 'serve', '--incremental', '--force-polling', '-l']);
+		website.on('error', errorLogHandler);
+        website.on('close', (code) => {
+          console.log(`child process close all stdio with code ${code}`);
+        });
+        
+        website.on('exit', (code) => {
+          console.log(`child process exited with code ${code}`);
+        });
+		website.stdout.on('data', (data) => {
+			console.log('Jekyll: ', data.toString('ascii'));
+        });
+		website.stderr.on('data', (data) => {
+			console.log('Jekyll: ', data.toString('ascii'));
+        });
+        done();
+}));
+
+gulp.task('jekyll-build', gulp.series(function(done)
+	{
+		website = spawn('bundle', ['exec', 'jekyll', 'build']);
 		website.on('error', errorLogHandler);
         website.on('close', (code) => {
           console.log(`child process close all stdio with code ${code}`);
@@ -58,10 +78,10 @@ gulp.task('jekyll', gulp.series(function(done)
 
 gulp.task('watch', function() {
     gulp.watch("./styles/*.less", {usePolling: true},  gulp.series(['delete-styles', 'less']));
-    // gulp.watch(["./*.html", "./*.md", "./_data/*.yaml"], gulp.series('jekyll'));
-    // gulp.watch("./scripts/*", gulp.series('jekyll'));
-    // gulp.watch("./img/*", gulp.series('jekyll'));
-    // gulp.watch("./_layouts/*", gulp.series('jekyll'));
+    gulp.watch(["./*.html", "./*.md", "./_data/*.yaml"], gulp.series('jekyll-build'));
+    gulp.watch("./scripts/*", gulp.series('jekyll-build'));
+    gulp.watch("./img/*", gulp.series('jekyll-build'));
+    gulp.watch("./_layouts/*", gulp.series('jekyll-build'));
 });
 
-gulp.task('default', gulp.series('less', 'jekyll', 'watch'));
+gulp.task('default', gulp.parallel('less', 'jekyll-build', 'jekyll', 'watch'));
